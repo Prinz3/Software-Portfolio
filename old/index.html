@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ifeoluwa Thomas | Developer Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-gray-900 text-white font-poppins overflow-x-hidden">
+    <!-- Particles Background -->
+    <div id="particles-js" class="fixed top-0 left-0 w-full h-full -z-10"></div>
+    
+    <!-- Navigation -->
+!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-gray-900 bg-opacity-80 backdrop-filter backdrop-blur-lg shadow-lg z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <!-- Logo SVG -->
+            <a href="#home" class="logo-svg">
+                <svg width="48" height="48" viewBox="0 0 100 100">
+                    <text x="50%" y="50%" text-anchor="middle" dy=".35em" font-size="60" fill="#8B5CF6" class="logo-letters">
+                        IT
+                    </text>
+                </svg>
+            </a>
+            <div class="hidden md:flex space-x-6">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#resume" class="nav-link">Resume</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="md:hidden toggle-menu">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </div>
+        <div class="mobile-menu hidden bg-gray-800 p-4 md:hidden">
+            <a href="#home" class="block py-2 nav-link">Home</a>
+            <a href="#about" class="block py-2 nav-link">About</a>
+            <a href="#skills" class="block py-2 nav-link">Skills</a>
+            <a href="#projects" class="block py-2 nav-link">Projects</a>
+            <a href="#resume" class="block py-2 nav-link">Resume</a>
+            <a href="#contact" class="block py-2 nav-link">Contact</a>
+        </div>
+    </nav>
+    
+    <!-- Home Section -->
+ <section id="home" class="min-h-screen flex items-center justify-center relative z-10 px-4">
+ <div class="absolute inset-0 pointer-events-none overflow-hidden">
+            <svg class="w-full h-full" preserveAspectRatio="none">
+                <circle cx="75%" cy="25%" r="100" fill="rgba(139,92,246,0.2)">
+                    <animate attributeName="cx" values="75%;25%;75%" dur="10s" repeatCount="indefinite" />
+                    <animate attributeName="cy" values="25%;75%;25%" dur="12s" repeatCount="indefinite" />
+                </circle>
+            </svg>
+        </div>
+
+<section id="home" class="min-h-screen flex items-center px-4 md:px-20 bg-[#0A0F1C] text-white">
+  <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+
+    <!-- Left Column: Text Content -->
+    <div>
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">Ifeoluwa Thomas</h1>
+      <div class="text-xl md:text-2xl text-violet-400 mb-8">
+        <span id="typed">Software Developer</span>
+      </div>
+      <p class="text-gray-300 text-lg md:text-xl mb-10 max-w-xl">
+        Creating elegant solutions to complex problems with clean, efficient code.
+      </p>
+
+      <!-- Buttons -->
+      <div class="flex flex-wrap gap-4">
+        <a href="#projects" class="glow-button">View My Work</a>
+        <a href="#contact" class="outline-glow-button">Get In Touch</a>
+      </div>
+    </div>
+
+    <!-- Right Column: Lottie Animation -->
+    <div class="flex justify-center md:justify-end">
+      <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+      <dotlottie-player 
+        src="https://lottie.host/8a6bb7aa-96b7-4425-94e3-b640f403a879/BwQw8APsel.lottie" 
+        background="transparent" 
+        speed="1" 
+        style="width: 300px; height: 300px" 
+        loop autoplay>
+      </dotlottie-player>
+    </div>
+
+  </div>
+</section>
+
+
+        <!-- Social Icons -->
+        <div class="flex justify-center space-x-6">
+            <a href="https://github.com/Prinz3" target="_blank" class="text-gray-400 hover:text-violet-400 transition duration-300">
+                <i class="fab fa-github text-2xl"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/ifeoluwa-thomas-256872298/" target="_blank" class="text-gray-400 hover:text-violet-400 transition duration-300">
+                <i class="fab fa-linkedin text-2xl"></i>
+            </a>
+
+        </div>
+    </div>
+</section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
+                <div class="flex justify-center" data-aos="fade-right" data-aos-delay="200">
+                    <div class="relative w-64 h-64">
+                        <div class="absolute inset-0 rounded-full bg-violet-500 bg-opacity-30 blur-xl"></div>
+                        <img src="assets/daniel.jpg" alt="Ifeolwa Thomas" class="relative rounded-full w-full h-full object-cover border-4 border-violet-500">
+                    </div>
+                </div>
+                
+                <div data-aos="fade-left" data-aos-delay="300">
+                    <h3 class="text-2xl font-semibold mb-4 text-violet-400">Who am I?</h3>
+                    <p class="text-gray-300 mb-6">
+                        I am a gey person attrected to boys. I also like hot chocalate especially the ones from te brand Ifeoluwa THomas
+                    </p>
+                    <p class="text-gray-300 mb-6">
+                    </p>
+                    <div class="flex gap-4 mt-8">
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Skills Section -->
+ <!-- Skills Section -->
+    <section id="skills" class="min-h-screen flex items-center py-20 relative z-10 px-4">
+        <div class="container mx-auto">
+            <h2 class="section-title" data-aos="fade-up">My Skills</h2>
+            
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
+                <!-- Frontend -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="text-xl font-semibold mb-4 text-center text-violet-400">Frontend</h3>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="skill-item">
+                            <i class="fab fa-html5 text-4xl mb-2"></i>
+                            <span>HTML</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt text-4xl mb-2"></i>
+                            <span>CSS</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js text-4xl mb-2"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react text-4xl mb-2"></i>
+                            <span>React</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Backend -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="text-xl font-semibold mb-4 text-center text-violet-400">Backend</h3>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="skill-item">
+                            <i class="fab fa-node-js text-4xl mb-2"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-server text-4xl mb-2"></i>
+                            <span>Microsoft SqlServer</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database text-4xl mb-2"></i>
+                            <span>Microsoft Sqlite</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-php text-4xl mb-2"></i>
+                            <span>PHP</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tools -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="text-xl font-semibold mb-4 text-center text-violet-400">Tools</h3>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt text-4xl mb-2"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-github text-4xl mb-2"></i>
+                            <span>GitHub</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-network-wired text-4xl mb-2"></i> <!-- Network-related -->
+                            <span>CDN</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-plug text-4xl mb-2"></i>          <!-- Integration -->
+                            <span>API</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Libraries -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                    <h3 class="text-xl font-semibold mb-4 text-center text-violet-400">Libraries</h3>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="skill-item">
+                            <i class="fas fa-wind text-4xl mb-2"></i>
+                            <span>Tailwind</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-bootstrap text-4xl mb-2"></i>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-wrench text-4xl mb-2"></i>
+                            <span>EF Core Tools</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-user-shield text-4xl mb-2"></i>
+                            <span>Microsoft Identity</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Other -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="500">
+                    <h3 class="text-xl font-semibold mb-4 text-center text-violet-400">Other</h3>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="skill-item">
+                            <i class="fas fa-mobile-alt text-4xl mb-2"></i>
+                            <span>Responsive</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-universal-access text-4xl mb-2"></i>
+                            <span>Accessibility</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-vial text-4xl mb-2"></i>
+                            <span>Testing</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-bug text-4xl mb-2"></i>
+                            <span>Debugging</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects" class="min-h-screen py-20 relative z-10 px-4 bg-gray-900 bg-opacity-70">
+    <div class="container mx-auto">
+        <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Project 1 - Enhanced Card -->
+            <div class="project-card group" data-aos="fade-up" data-aos-delay="100">
+    <div class="relative overflow-hidden rounded-t-xl">
+        <img src="assets/email-builder-preview.png" alt="Email Builder Project" class="w-full h-60 object-cover transition-transform duration-700 group-hover:scale-110">
+        <div class="absolute inset-0 bg-gradient-to-t from-violet-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end justify-start p-4">
+            <span class="text-white font-medium tracking-wider uppercase text-sm transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Frontend Project</span>
+        </div>
+    </div>
+    <div class="p-6 bg-gray-800 rounded-b-xl border-t-2 border-violet-500 transform group-hover:-translate-y-1 transition-all duration-300">
+        <h3 class="text-xl font-semibold mb-2 text-white group-hover:text-violet-400 transition-colors duration-300">Email Builder</h3>
+        <p class="text-gray-400 mb-4 line-clamp-3">
+            A drag-and-drop email template builder using HTML, PHP, and jQuery. Features include rich text formatting, block-based editing, live preview, and export to PDF—ideal for crafting custom marketing emails with ease.
+        </p>
+        <div class="flex flex-wrap gap-2 mb-4">
+            <span class="bg-violet-900/30 text-violet-200 text-xs px-3 py-1 rounded-full border border-violet-700/50">HTML</span>
+            <span class="bg-violet-900/30 text-violet-200 text-xs px-3 py-1 rounded-full border border-violet-700/50">PHP</span>
+            <span class="bg-violet-900/30 text-violet-200 text-xs px-3 py-1 rounded-full border border-violet-700/50">jQuery</span>
+            <span class="bg-violet-900/30 text-violet-200 text-xs px-3 py-1 rounded-full border border-violet-700/50">SCEditor</span>
+        </div>
+        <div class="flex justify-between items-center relative">
+            <a href="#" class="project-link group-hover:font-medium flex items-center transform group-hover:translate-x-2 transition-all duration-300">
+                <i class="fas fa-external-link-alt mr-2"></i> 
+                <span>Live Demo</span>
+                <span class="project-link-line"></span>
+            </a>
+            <a href="#" class="project-link group-hover:font-medium flex items-center transform group-hover:translate-x-2 transition-all duration-300">
+                <i class="fab fa-github mr-2"></i> 
+                <span>Source Code</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+            
+            <!-- Project 2 - Enhanced Card -->
+            <div class="project-card group" data-aos="fade-up" data-aos-delay="200">
+                <div class="relative overflow-hidden rounded-t-xl">
+                    <img src="assets/Screenshot 2025-02-27 095532.png" alt="Task Management App" class="w-full h-60 object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-violet-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end justify-start p-4">
+                        <span class="text-white font-medium tracking-wider uppercase text-sm transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Frontend Project</span>
+                    </div>
+                </div>
+                <div class="p-6 bg-gray-800 rounded-b-xl border-t-2 border-violet-500 transform group-hover:-translate-y-1 transition-all duration-300">
+                    <h3 class="text-xl font-semibold mb-2 text-white group-hover:text-violet-400 transition-colors duration-300">Search Tool</h3>
+                    <p class="text-gray-400 mb-4 line-clamp-3">The Online Product Price Search Web App allows users to search for products and compare real-time prices from multiple online stores using SerpApi’s Google Shopping API.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-violet-900/30 text-violet-200 text-xs px-3 py-1 rounded-full border border-violet-700/50">C#</span>
+                        <span class="bg-violet-900/30 text-violet-200 text-xs px-3 py-1 rounded-full border border-violet-700/50">HTML</span>
+                        <span class="bg-violet-900/30 text-violet-200 text-xs px-3 py-1 rounded-full border border-violet-700/50">CSS</span>
+                    </div>
+                    <div class="flex justify-between items-center relative">
+                        <a href="#" class="project-link group-hover:font-medium flex items-center transform group-hover:translate-x-2 transition-all duration-300">
+                            <i class="fas fa-external-link-alt mr-2"></i> 
+                            <span>Live Demo</span>
+                            <span class="project-link-line"></span>
+                        </a>
+                        <a href="#" class="project-link group-hover:font-medium flex items-center transform group-hover:translate-x-2 transition-all duration-300">
+                            <i class="fab fa-github mr-2"></i> 
+                            <span>Source Code</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 3 - Enhanced Card -->
+            <div class="project-card group" data-aos="fade-up" data-aos-delay="300">
+                <div class="relative overflow-hidden rounded-t-xl">
+                    <img src="assets/Screenshot 2025-02-27 095638.png" alt="Weather Dashboard" class="w-full h-60 object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-violet-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end justify-start p-4">
+                        <span class="text-white font-medium tracking-wider uppercase text-sm transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">API Project</span>
+                    </div>
+                </div>
+                <div class="p-6 bg-gray-800 rounded-b-xl border-t-2 border-violet-500 transform group-hover:-translate-y-1 transition-all duration-300">
+                    <h3 class="text-xl font-semibold mb-2 text-white group-hover:text-violet-400 transition-colors duration-300">Empty place holder </h3>
+                    <p class="text-gray-400 mb-4 line-clamp-3">Still Thinking but imma put daniel in here for now</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-violet-900/30 text-violet-200 text-xs px-3 py-1 rounded-full border border-violet-700/50">JavaScript</span>
+                        <span class="bg-violet-900/30 text-violet-200 text-xs px-3 py-1 rounded-full border border-violet-700/50">API</span>
+                        <span class="bg-violet-900/30 text-violet-200 text-xs px-3 py-1 rounded-full border border-violet-700/50">Chart.js</span>
+                    </div>
+                    <div class="flex justify-between items-center relative">
+                        <a href="#" class="project-link group-hover:font-medium flex items-center transform group-hover:translate-x-2 transition-all duration-300">
+                            <i class="fas fa-external-link-alt mr-2"></i> 
+                            <span>Live Demo</span>
+                            <span class="project-link-line"></span>
+                        </a>
+                        <a href="#" class="project-link group-hover:font-medium flex items-center transform group-hover:translate-x-2 transition-all duration-300">
+                            <i class="fab fa-github mr-2"></i> 
+                            <span>Source Code</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 4 - Enhanced Card -->
+            <div class="project-card group" data-aos="fade-up" data-aos-delay="400">
+    <div class="relative overflow-hidden rounded-t-xl">
+        <img src="assets/Screenshot 2025-03-16 191650.png" alt="Movie Database App" class="w-full h-60 object-cover transition-transform duration-700 group-hover:scale-110">
+        <div class="absolute inset-0 bg-gradient-to-t from-violet-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end justify-start p-4">
+            <span class="text-white font-medium tracking-wider uppercase text-sm transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Full-Stack Project</span>
+        </div>
+    </div>
+    <div class="p-6 bg-gray-800 rounded-b-xl border-t-2 border-violet-500 transform group-hover:-translate-y-1 transition-all duration-300">
+        <h3 class="text-xl font-semibold mb-2 text-white group-hover:text-violet-400 transition-colors duration-300">Movie Database App</h3>
+        <p class="text-gray-400 mb-4 line-clamp-3">An interactive movie search platform powered by the TMDB API. Users can explore trending films, view detailed cast info, watch trailers, and track their favorites in a responsive UI.</p>
+        <div class="flex flex-wrap gap-2 mb-4">
+            <span class="bg-violet-900/30 text-violet-200 text-xs px-3 py-1 rounded-full border border-violet-700/50">HTML</span>
+            <span class="bg-violet-900/30 text-violet-200 text-xs px-3 py-1 rounded-full border border-violet-700/50">CSS</span>
+            <span class="bg-violet-900/30 text-violet-200 text-xs px-3 py-1 rounded-full border border-violet-700/50">JavaScript</span>
+            <span class="bg-violet-900/30 text-violet-200 text-xs px-3 py-1 rounded-full border border-violet-700/50">TMDB API</span>
+        </div>
+        <div class="flex justify-between items-center relative">
+            <a href="#" class="project-link group-hover:font-medium flex items-center transform group-hover:translate-x-2 transition-all duration-300">
+                <i class="fas fa-external-link-alt mr-2"></i> 
+                <span>Live Demo</span>
+                <span class="project-link-line"></span>
+            </a>
+            <a href="#" class="project-link group-hover:font-medium flex items-center transform group-hover:translate-x-2 transition-all duration-300">
+                <i class="fab fa-github mr-2"></i> 
+                <span>Source Code</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+            
+            <!-- Project 5 - Enhanced Card -->
+            <div class="project-card group" data-aos="fade-up" data-aos-delay="500">
+                <div class="relative overflow-hidden rounded-t-xl">
+                    <img src="/api/placeholder/600/400" alt="Blog Platform" class="w-full h-60 object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-violet-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end justify-start p-4">
+                        <span class="text-white font-medium tracking-wider uppercase text-sm transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Microsoft app Integration</span>
+                    </div>
+                </div>
+                <div class="p-6 bg-gray-800 rounded-b-xl border-t-2 border-violet-500 transform group-hover:-translate-y-1 transition-all duration-300">
+                    <h3 class="text-xl font-semibold mb-2 text-white group-hover:text-violet-400 transition-colors duration-300">OutLook Email Integration</h3>
+                    <p class="text-gray-400 mb-4 line-clamp-3">  A dynamic PHP-powered Outlook web client featuring secure OAuth2 login, folder browsing, threaded conversation search by custom tags, rich email composition with attachment previews, and automatic token refresh for seamless mail management.
+</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-violet-900/30 text-violet-200 text-xs px-3 py-1 rounded-full border border-violet-700/50">MERN Stack</span>
+                        <span class="bg-violet-900/30 text-violet-200 text-xs px-3 py-1 rounded-full border border-violet-700/50">AWS</span>
+                        <span class="bg-violet-900/30 text-violet-200 text-xs px-3 py-1 rounded-full border border-violet-700/50">Redux</span>
+                    </div>
+                    <div class="flex justify-between items-center relative">
+                        <a href="#" class="project-link group-hover:font-medium flex items-center transform group-hover:translate-x-2 transition-all duration-300">
+                            <i class="fas fa-external-link-alt mr-2"></i> 
+                            <span>Live Demo</span>
+                            <span class="project-link-line"></span>
+                        </a>
+                        <a href="#" class="project-link group-hover:font-medium flex items-center transform group-hover:translate-x-2 transition-all duration-300">
+                            <i class="fab fa-github mr-2"></i> 
+                            <span>Source Code</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 6 - Enhanced Card -->
+            <div class="project-card group" data-aos="fade-up" data-aos-delay="600">
+                <div class="relative overflow-hidden rounded-t-xl">
+                    <img src="/api/placeholder/600/400" alt="Portfolio Website" class="w-full h-60 object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-violet-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end justify-start p-4">
+                        <span class="text-white font-medium tracking-wider uppercase text-sm transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Portfolio Project</span>
+                    </div>
+                </div>
+                <div class="p-6 bg-gray-800 rounded-b-xl border-t-2 border-violet-500 transform group-hover:-translate-y-1 transition-all duration-300">
+                    <h3 class="text-xl font-semibold mb-2 text-white group-hover:text-violet-400 transition-colors duration-300">Portfolio Website</h3>
+                    <p class="text-gray-400 mb-4 line-clamp-3">Interactive developer portfolio with particle.js animations and responsive design.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-violet-900/30 text-violet-200 text-xs px-3 py-1 rounded-full border border-violet-700/50">HTML5</span>
+                        <span class="bg-violet-900/30 text-violet-200 text-xs px-3 py-1 rounded-full border border-violet-700/50">Tailwind CSS</span>
+                        <span class="bg-violet-900/30 text-violet-200 text-xs px-3 py-1 rounded-full border border-violet-700/50">JavaScript</span>
+                    </div>
+                    <div class="flex justify-between items-center relative">
+                        <a href="#" class="project-link group-hover:font-medium flex items-center transform group-hover:translate-x-2 transition-all duration-300">
+                            <i class="fas fa-external-link-alt mr-2"></i> 
+                            <span>Live Demo</span>
+                            <span class="project-link-line"></span>
+                        </a>
+                        <a href="#" class="project-link group-hover:font-medium flex items-center transform group-hover:translate-x-2 transition-all duration-300">
+                            <i class="fab fa-github mr-2"></i> 
+                            <span>Source Code</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+    <!-- Resume Section -->
+    <section id="resume" class="min-h-screen flex items-center py-20 relative z-10 px-4">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title" data-aos="fade-up">My Resume</h2>
+            
+            <div class="mt-16">
+                <!-- Education -->
+                <div class="mb-16" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="text-2xl font-semibold mb-8 text-violet-400">Education</h3>
+                    
+                    <div class="timeline">
+                        <!-- Timeline Item 1 -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content" data-aos="fade-left" data-aos-delay="100">
+                                <h4 class="text-xl font-semibold">T Level Digital Production Design and Developemt</h4>
+                                <h5 class="text-lg text-violet-400">Barnsley Collage</h5>
+                                <p class="text-gray-400">2023 - 2025</p>
+                                <p class="text-gray-300 mt-2">Grade : Merit</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Timeline Item 2 -->
+                   <div class="timeline-item">
+    <div class="timeline-dot"></div>
+    <div class="timeline-content" data-aos="fade-left" data-aos-delay="100">
+        <h4 class="text-xl font-semibold">GCSE</h4>
+        <h5 class="text-lg text-violet-400">Kirk Balk Academy</h5>
+        <p class="text-gray-400">2022 - 2023</p>
+        <ul class="text-gray-300 mt-2 list-disc list-inside space-y-1">
+            <li>English Language: 8</li>
+            <li>English Language (Additional): 7</li>
+            <li>Maths (Higher): 6</li>
+            <li>Geography: 6</li>
+            <li>Imedia: Level 2 Pass</li>
+            <li>Science Trilogy (Higher): 7-6</li>
+            <li>BTEC Sports: Distinction*</li>
+        </ul>
+    </div>
+</div>
+
+                    </div>
+                </div>
+                
+                <!-- Experience -->
+                <div data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="text-2xl font-semibold mb-8 text-violet-400">Experience</h3>
+                    
+                    <div class="timeline">
+                        <!-- Timeline Item 1 -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content" data-aos="fade-left" data-aos-delay="100">
+                                <h4 class="text-xl font-semibold">Junior Software Engineer</h4>
+                                <h5 class="text-lg text-violet-400">ZZC Group</h5>
+                                <p class="text-gray-400">2024 - Present</p>
+                                <p class="text-gray-300 mt-2">Assisting in the development of cloud-based solutions for enterprise clients. Architecting and implementing scalable microservices.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Timeline Item 2 -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content" data-aos="fade-left" data-aos-delay="200">
+                                <h4 class="text-xl font-semibold">Computer Repair</h4>
+                                <h5 class="text-lg text-violet-400">Repair IT</h5>
+                                <p class="text-gray-400">2024 - 2024</p>
+                                <p class="text-gray-300 mt-2">Repair customers computer and assist in building Pcs and installing/updating Softwares</p>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12" data-aos="fade-up">
+                <a href="#" class="glow-button">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Contact Section -->
+    <section id="contact" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
+                <!-- Contact Form -->
+                <div data-aos="fade-right" data-aos-delay="100">
+                    <h3 class="text-2xl font-semibold mb-6 text-violet-400">Send Me a Message</h3>
+                    <form class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-gray-300 mb-2">Name</label>
+                            <input type="text" id="name" class="form-input" placeholder="Your Name">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-gray-300 mb-2">Email</label>
+                            <input type="email" id="email" class="form-input" placeholder="Your Email">
+                        </div>
+                        <div>
+                            <label for="subject" class="block text-gray-300 mb-2">Subject</label>
+                            <input type="text" id="subject" class="form-input" placeholder="Subject">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-gray-300 mb-2">Message</label>
+                            <textarea id="message" rows="5" class="form-input" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="glow-button w-full">Send Message</button>
+                    </form>
+                </div>
+                
+                <!-- Contact Info -->
+                <div data-aos="fade-left" data-aos-delay="200">
+                    <h3 class="text-2xl font-semibold mb-6 text-violet-400">Contact Information</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold mb-1">Location</h4>
+                                <p class="text-gray-300">Barnsley United Kingdom</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold mb-1">Email</h4>
+                                <p class="text-gray-300">ifeoluwa@tomsthrone.com</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold mb-1">Phone</h4>
+                                <p class="text-gray-300">+447376112862</p>
+                            </div>
+                        </div>
+                        <div class="mt-8">
+                            <h4 class="font-semibold mb-4">Social Media</h4>
+                            <div class="flex gap-4">
+                                <a href="https://github.com/Prinz3" class="social-icon">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/ifeoluwa-thomas-256872298/" class="social-icon">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="min-h-screen flex items-center py-20 relative z-10 px-4">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-gray-300">&copy; 2025 Ifeolwa Thomas. All rights reserved.</p>
+            <div class="flex justify-center gap-4 mt-4">
+                </div>
+        </div>
+    </footer>
+    
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top-btn hidden">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+        </svg>
+    </button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
